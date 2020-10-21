@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(241, 235, 227);
 }
 
 
@@ -34,12 +35,23 @@ body{
 
 .titulo h3 {
     font-size: 40px;
-   
     font-family: 'Parisienne', cursive;
 
 }
 .titulo h5 {
     word-spacing:5px;
-
     font-family: 'Baloo 2', cursive;
+}
+
+/* quienes somos */
+
+.quienes .row h1{
+    font-family: 'Baloo 2', cursive;
+    color: coral;
+}
+.quienes .row p{
+    font-family: 'Parisienne', cursive;
+}
+.quienes img {
+    box-shadow: 0 0 4px 4px rgba(5, 5, 8, 0.424);
 }
